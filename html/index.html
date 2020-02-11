@@ -1,0 +1,83 @@
+<!DOCTYPE html >
+<html lang="en">
+  <head>
+    <title>Learning PugJS</title>
+    <nav id="navbar-default">
+      <div class="container-fluid"> 
+        <h1 class="navbar-header">Pug</h1>
+      </div>
+      <ul> 
+        <li><a href="/">Home</a></li>
+        <li><a href="/page-1">Page 1</a></li>
+        <li><a href="/page-2">Page 2</a></li>
+      </ul>
+      <input class="search" type="text" name="search" placeholder="Enter a search term..."/>
+      <link rel="stylesheet" href="/css/employee.css"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+    </nav>
+  </head>
+  <body>
+    <div class="plain-text">
+      <h2>Plain text and block text </h2>
+      <div class="remark"> 
+        <p>
+          You are logged in as 
+          user@example.com 
+        </p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+    </div>
+    <hr/>
+    <div class="section-js">
+      <h2>JS in Pug, playground</h2>
+      <!--js expression -->
+      <p>Hi Jim</p>
+      <!--interation --><span>List of employees :</span>
+      <ol>
+        <li>Angela</li>
+        <li>Jim</li>
+        <li>Nilson</li>
+        <li>Simone</li>
+      </ol>
+      <!--interate over obj--><span>Obj employee_1 :</span>
+      <ul>
+        <li>First Name : James</li>
+        <li>Last Name : Hibbard</li>
+      </ul>
+      <!--iterate with an else block --><span>List of employees_2 :</span>
+      <ul> 
+        <li>
+           The company doesn't have any employees.
+          Maybe hire some ?
+        </li>
+      </ul>
+      <!--conditionals-->
+      <div id="employee">
+        <p>James Hibbard</p>
+        <p>Extension: 12345
+        </p>
+      </div>
+    </div>
+    <hr/>
+    <div class="sitepoints-demo"></div>
+    <h2>SitePoint JS demo</h2>
+    <ul class="team">
+      <li>
+        <figure><img src="https://66.media.tumblr.com/c5a6bdb8a79166a205acd20fe2fed057/e5d9c6fbeed893e7-49/s1280x1920/73c5750de5ab11e82ccca98294c8fd970d6b5837.jpg" alt="James Hibbard"/>
+          <figcaption>
+            <h3>James Hibbard</h3>
+            <p>JS Editor</p><a href="link tw" target="_blank"><i class="fa fa-twitter"></i></a>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure><img src="https://66.media.tumblr.com/c5a6bdb8a79166a205acd20fe2fed057/e5d9c6fbeed893e7-49/s1280x1920/73c5750de5ab11e82ccca98294c8fd970d6b5837.jpg" alt="Nilson Jacques"/>
+          <figcaption>
+            <h3>Nilson Jacques</h3>
+            <p>JS Editor</p><a href="link tw" target="_blank"><i class="fa fa-twitter"></i></a>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+  </body>
+</html>

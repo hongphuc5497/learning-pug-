@@ -1,0 +1,32 @@
+body {
+  background: #f7f7f7;
+  font-size: 14px;
+  line-height: 85%
+}
+
+.sitepoints-demo {
+  text-align: center;
+}
+
+.team {
+  margin: 45px 0;
+  list-style: none;
+}
+
+.team li {
+  margin-bottom: 35px;
+}
+
+img {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+}
+
+.fa-twitter{
+  font-size: 25px;
+}
+
+a:visited {
+  color: blue;
+}
